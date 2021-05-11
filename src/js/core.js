@@ -1,3 +1,5 @@
+(function ($) {
+
 var touchScreen = ('ontouchstart' in document || navigator.msMaxTouchPoints) ? true : false;
 var retinaDisplay = (window.devicePixelRatio > 1) ? true : false;
 var browserStorage = ('localStorage' in window) ? true : false;
@@ -5,7 +7,7 @@ var standaloneApp = (('standalone' in window.navigator) && window.navigator.stan
 var loader, loaderIndex, busy = false, proData = null, mouseX, mouseY, windowLoad = 0;
 var photoSwipeOpts = {captionAndToolbarAutoHideDelay: 0, captionAndToolbarShowEmptyCaptions: false, captionAndToolbarOpacity: 1, backButtonHideEnabled: false, captionAndToolbarFlipPosition: true, imageScaleMethod: 'fitNoUpscale', allowUserZoom: false};
 		
-$(document).ready(function()
+$(document).on('ready', function()
 	{
 		if (touchScreen) {$('body').removeClass('cursor')}
 		if ($("a[rel^='zoom']").length) {$("a[rel^='zoom']").photoSwipe(photoSwipeOpts)}
@@ -13,7 +15,7 @@ $(document).ready(function()
 		if ($('.news-marquee').length) {$('.news-marquee').marquee({duration: 20000, gap: 0, delayBeforeStart: 0, direction: 'left', pauseOnHover: true, duplicated: true})}
 	});
 
-$(window).load(function()
+$(window).on('load', function()
 	{
 		if ($('.projects-line').length) {$('.projects-line').each(function() {$(this).scrollContent()})}
 		if ($('#main-page').length) {initCycle()}
@@ -32,18 +34,18 @@ $(window).load(function()
 			}, 300);
 	});
 
-$(window).scroll(function()
+$(window).on('scroll', function()
 	{
 		if ($(window).scrollTop() >= 40) {$('.header').addClass('black')} else {$('.header').removeClass('black')}
 	});
 
-$(window).resize(function()
+$(window).on('resize', function()
 	{
 		if ($('.projects-line').length) {$('.projects-line').each(function() {$(this).checkScroll()})}
 		fitBG();
 	});
 
-$(document).mousemove(function(e)
+$(document).on('mousemove', function(e)
 	{
 		if (!touchScreen && $('#map-hint').length)
 			{
@@ -202,7 +204,7 @@ function initMap()
 		if ($('#office-map').length)
 			{
 				var img = (retinaDisplay) ? 'marker-2x' : 'marker';
-				var ico = {url: '/lib/media/' + img + '.png', scaledSize: new google.maps.Size(56, 56)};
+				var ico = {url: '/img/' + img + '.png', scaledSize: new google.maps.Size(56, 56)};
 				var officePos = new google.maps.LatLng(50.455169, 30.640285);
 				var officeMap = new google.maps.Map(document.getElementById('office-map'), {styles: mapStyles, zoom: 14, center: officePos, mapTypeId: google.maps.MapTypeId.ROADMAP, disableDefaultUI: true});
 				var officeMarker = new google.maps.Marker({position: officePos, map: officeMap, icon: ico, optimized: false});
@@ -252,7 +254,7 @@ function loadMarkers(map)
 				var sw = s == 1 ? 22 : 10, sh = s == 1 ? 30 : 16;
 				var ax = s == 1 ? (d == 1 ? 19 : 1) : (d == 1 ? 8 : 1), ay = s == 1 ? 29 : 15;
 				var x2 = retinaDisplay ? '-2x' : '';
-				var ico = {url: '/lib/media/flag' + size + dir + x2 + '.png', scaledSize: new google.maps.Size(sw, sh), anchor: new google.maps.Point(ax, ay)};
+				var ico = {url: '/img/flag' + size + dir + x2 + '.png', scaledSize: new google.maps.Size(sw, sh), anchor: new google.maps.Point(ax, ay)};
 				var marker = new google.maps.Marker({position: pos, map: map, zIndex: 10, icon: ico, optimized: false});
 				eval('google.maps.event.addListener(marker, "click", function(event) {showProjectInfo(' + i + ')})');
 				eval('google.maps.event.addListener(marker, "mouseover", function(event) {showMapHint(' + i + ')})');
@@ -600,3 +602,5 @@ jQuery.fn.move3d = function(x, y)
 		return $(this);
 	};
 
+
+})(jQuery);

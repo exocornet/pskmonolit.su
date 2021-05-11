@@ -118,7 +118,7 @@ a:hover, a.tap
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: url(../media/pattern.png);
+		background: url(../img/pattern.png);
 		z-index: 2;
 	}
 
@@ -193,7 +193,7 @@ a:hover, a.tap
 		overflow: hidden;
 		padding-top: 16px;
 		margin-left: 8px;
-		background-image: url(../media/social.png);
+		background-image: url(../img/social.png);
 		background-repeat: no-repeat;
 	}
 
@@ -273,7 +273,7 @@ a:hover, a.tap
 		position: absolute;
 		left: 0;
 		top: 0;
-		background: url(../media/icons.png) left top no-repeat;
+		background: url(../img/icons.png) left top no-repeat;
 		-webkit-transition: top .25s;
 		-moz-transition: top .25s;
 		-ms-transition: top .25s;
@@ -337,7 +337,7 @@ a:hover, a.tap
 		margin: -16px 0 0 -16px;
 		width: 32px;
 		height: 32px;
-		background: url(../media/loader.png) left top no-repeat;
+		background: url(../img/loader.png) left top no-repeat;
 		z-index: 900;
 	}
 
@@ -355,7 +355,7 @@ a:hover, a.tap
 		top: 0;
 		right: 0;
 		bottom: 0;
-		background: #494e52 url(../media/pattern.png);
+		background: #494e52 url(../img/pattern.png);
 		opacity: 1;
 		-webkit-transition: opacity .3s;
 		-moz-transition: opacity .3s;
@@ -422,7 +422,7 @@ a:hover, a.tap
 		padding-top: 60px;
 		overflow: hidden;
 		width: 198px;
-		background: url(../media/logo.png) center bottom no-repeat;
+		background: url(../img/logo.png) center bottom no-repeat;
 		-webkit-transition: background-position .25s;
 		-moz-transition: background-position .25s;
 		-ms-transition: background-position .25s;
@@ -692,7 +692,7 @@ form input, form textarea
 
 .projects-line .scroll-left, .projects-line .scroll-right
 	{
-		background: url(../media/line-arrows.png) left top no-repeat;
+		background: url(../img/line-arrows.png) left top no-repeat;
 		width: 40px;
 		height: 90px;
 		position: absolute;
@@ -773,7 +773,7 @@ form input, form textarea
 		position: absolute;
 		left: 0;
 		top: 0;
-		background: url(../media/steps-zoom.png) center center no-repeat;
+		background: url(../img/steps-zoom.png) center center no-repeat;
 		z-index: 100;
 	}
 
@@ -787,7 +787,7 @@ form input, form textarea
 		position: absolute;
 		left: 0;
 		top: 0;
-		background: url(../media/steps-zoom-big.png) center center no-repeat;
+		background: url(../img/steps-zoom-big.png) center center no-repeat;
 		z-index: 900;
 	}
 
@@ -993,7 +993,7 @@ form input, form textarea
 		position: absolute;
 		left: 0;
 		top: 0;
-		background: url(../media/steps-zoom.png) center center no-repeat;
+		background: url(../img/steps-zoom.png) center center no-repeat;
 		z-index: 100;
 	}
 
@@ -1248,7 +1248,7 @@ form p
 		line-height: 30px;
 		text-align: center;
 		font-family: Arial, sans-serif;
-		background: url(../media/zoom.png) left top no-repeat;
+		background: url(../img/zoom.png) left top no-repeat;
 	}
 
 .zoom .separator
@@ -1370,7 +1370,7 @@ form p
 		margin-top: 0;
 		width: 240px;
 		height: 160px;
-		background: url(../media/loader.gif) center center no-repeat;
+		background: url(../img/loader.gif) center center no-repeat;
 	}
 
 /* PROJECTS CYCLE */
@@ -1523,7 +1523,7 @@ form p
 		position: absolute;
 		width: 46px;
 		height: 29px;
-		background: url(../media/media.png) left top no-repeat;
+		background: url(../img/media.png) left top no-repeat;
 		left: 25px;
 		top: 53px;
 		z-index: 110;
@@ -1614,7 +1614,7 @@ form p
 		height: 26px;
 		right: 0px;
 		top: 0px;
-		background: url(../media/zoom.png) 0 -60px no-repeat;
+		background: url(../img/zoom.png) 0 -60px no-repeat;
 		cursor: pointer;
 		opacity: .5;
 	}
@@ -1701,7 +1701,7 @@ form p
 		content: "";
 		width: 32px;
 		height: 40px;
-		background: url(../media/doc.png) left top no-repeat;
+		background: url(../img/doc.png) left top no-repeat;
 		display: inline-block;
 		vertical-align: middle;
 		margin-right: 10px;
@@ -1804,7 +1804,7 @@ form p
 		width: 40px;
 		height: 40px;
 		float: left;
-		background: url(../media/line-arrows.png) -80px -25px no-repeat;
+		background: url(../img/line-arrows.png) -80px -25px no-repeat;
 	}
 
 .project-nav span
@@ -1877,7 +1877,7 @@ form p
 		position: absolute;
 		left: -17px;
 		top: 4px;
-		background: url(../media/steps-arrow.png) left bottom no-repeat;
+		background: url(../img/steps-arrow.png) left bottom no-repeat;
 	}
 
 .close-steps .steps-wrap h3:after
@@ -2003,7 +2003,7 @@ form p
 		right: -27px;
 		top: 50%;
 		margin-top: -11px;
-		background: url(../media/res-arrow.png) left top no-repeat;
+		background: url(../img/res-arrow.png) left top no-repeat;
 	}
 
 .content .e-video
@@ -2038,7 +2038,7 @@ form p
 
 		.background .pattern, .loader
 			{
-				background-image: url(../media/pattern-2x.png);
+				background-image: url(../img/pattern-2x.png);
 				-webkit-background-size: 3px 3px;
 				-moz-background-size: 3px 3px;
 				background-size: 3px 3px;
@@ -2046,7 +2046,7 @@ form p
 
 		.logo a, .logo span
 			{
-				background-image: url(../media/logo-2x.png);
+				background-image: url(../img/logo-2x.png);
 				-webkit-background-size: 198px 120px;
 				-moz-background-size: 198px 120px;
 				background-size: 198px 120px;
@@ -2054,7 +2054,7 @@ form p
 
 		.footer .social a
 			{
-				background-image: url(../media/social-2x.png);
+				background-image: url(../img/social-2x.png);
 				-webkit-background-size: 64px 32px;
 				-moz-background-size: 64px 32px;
 				background-size: 64px 32px;
@@ -2062,7 +2062,7 @@ form p
 
 		.line .services a i
 			{
-				background-image: url(../media/icons-2x.png);
+				background-image: url(../img/icons-2x.png);
 				-webkit-background-size: 464px 104px;
 				-moz-background-size: 464px 104px;
 				background-size: 464px 104px;
@@ -2070,7 +2070,7 @@ form p
 
 		.zoom div, #project-details i
 			{
-				background-image: url(../media/zoom-2x.png);
+				background-image: url(../img/zoom-2x.png);
 				-webkit-background-size: 26px 86px;
 				-moz-background-size: 26px 86px;
 				background-size: 26px 86px;
@@ -2078,7 +2078,7 @@ form p
 
 		.project-nav a, .project-nav span, .projects-line .scroll-left, .projects-line .scroll-right
 			{
-				background-image: url(../media/line-arrows-2x.png);
+				background-image: url(../img/line-arrows-2x.png);
 				-webkit-background-size: 200px 90px;
 				-moz-background-size: 200px 90px;
 				background-size: 200px 90px;
@@ -2086,7 +2086,7 @@ form p
 
 		.e-doc-link:before
 			{
-				background-image: url(../media/doc-2x.png);
+				background-image: url(../img/doc-2x.png);
 				-webkit-background-size: 32px 40px;
 				-moz-background-size: 32px 40px;
 				background-size: 32px 40px;
@@ -2094,7 +2094,7 @@ form p
 
 		.content .res-arrow:after
 			{
-				background-image: url(../media/res-arrow-2x.png);
+				background-image: url(../img/res-arrow-2x.png);
 				-webkit-background-size: 13px 22px;
 				-moz-background-size: 13px 22px;
 				background-size: 13px 22px;
@@ -2102,7 +2102,7 @@ form p
 
 		.steps-wrap h3:after
 			{
-				background-image: url(../media/steps-arrow-2x.png);
+				background-image: url(../img/steps-arrow-2x.png);
 				-webkit-background-size: 11px 22px;
 				-moz-background-size: 11px 22px;
 				background-size: 11px 22px;
@@ -2110,7 +2110,7 @@ form p
 
 		.cursor .news-zoom-image:hover:after, .cursor .pro-cycle a:hover:after, .cursor .projects-line.steps a:hover:after
 			{
-				background-image: url(../media/steps-zoom-2x.png);
+				background-image: url(../img/steps-zoom-2x.png);
 				-webkit-background-size: 45px 45px;
 				-moz-background-size: 45px 45px;
 				background-size: 45px 45px;
@@ -2118,7 +2118,7 @@ form p
 
 		.cursor .project-cycle a:hover:after
 			{
-				background-image: url(../media/steps-zoom-big-2x.png);
+				background-image: url(../img/steps-zoom-big-2x.png);
 				-webkit-background-size: 74px 74px;
 				-moz-background-size: 74px 74px;
 				background-size: 74px 74px;
@@ -2126,7 +2126,7 @@ form p
 
 		.hint .image
 			{
-				background-image: url(../media/loader-2x.gif);
+				background-image: url(../img/loader-2x.gif);
 				-webkit-background-size: 16px 16px;
 				-moz-background-size: 16px 16px;
 				background-size: 16px 16px;
@@ -2141,7 +2141,7 @@ form p
 
 		.media-btn
 			{
-				background-image: url(../media/media-2x.png);
+				background-image: url(../img/media-2x.png);
 				-webkit-background-size: 86px 29px;
 				-moz-background-size: 86px 29px;
 				background-size: 86px 29px;
@@ -2180,7 +2180,7 @@ form p
 
 		body
 			{
-				background-image: url(../media/pattern.png);
+				background-image: url(../img/pattern.png);
 			}
 
 		.background, .citation
@@ -2258,7 +2258,7 @@ form p
 				position: absolute;
 				right: 0;
 				top: 0;
-				background: url(../media/menu-btn.png) left top no-repeat;
+				background: url(../img/menu-btn.png) left top no-repeat;
 				z-index: 999;
 			}
 
@@ -2525,7 +2525,7 @@ form p
 				width: 20px !important;
 				height: 70px !important;
 				top: 30px;
-				background: url(../media/line-small-arrows.png) left top no-repeat;
+				background: url(../img/line-small-arrows.png) left top no-repeat;
 			}
 
 		.projects-line .scroll-right
@@ -2667,7 +2667,7 @@ form p
 
 		.main-menu
 			{
-				background-image: url(../media/menu-black-btn.png);
+				background-image: url(../img/menu-black-btn.png);
 			}
 
 		.main-menu:hover
@@ -2771,7 +2771,7 @@ form p
 
 		.cursor .project-cycle a:hover:after
 			{
-				background: url(../media/steps-zoom.png) center center no-repeat;
+				background: url(../img/steps-zoom.png) center center no-repeat;
 			}
 
 		.project-nav
@@ -2863,7 +2863,7 @@ form p
 				bottom: -15px;
 				left: 50%;
 				margin-left: -11px;
-				background: url(../media/res-arrow-down.png) left top no-repeat;
+				background: url(../img/res-arrow-down.png) left top no-repeat;
 			}
 
 	}
@@ -2883,7 +2883,7 @@ form p
 
 		body
 			{
-				background-image: url(../media/pattern-2x.png);
+				background-image: url(../img/pattern-2x.png);
 				-webkit-background-size: 3px 3px;
 				-moz-background-size: 3px 3px;
 				background-size: 3px 3px;
@@ -2891,7 +2891,7 @@ form p
 
 		.background .pattern
 			{
-				background-image: url(../media/pattern.png);
+				background-image: url(../img/pattern.png);
 				-webkit-background-size: 1.5px 1.5px;
 				-moz-background-size: 1.5px 1.5px;
 				background-size: 1.5px 1.5px;
@@ -2899,7 +2899,7 @@ form p
 
 		.main-menu
 			{
-				background-image: url(../media/menu-btn-2x.png);
+				background-image: url(../img/menu-btn-2x.png);
 				-webkit-background-size: 68px 60px;
 				-moz-background-size: 68px 60px;
 				background-size: 68px 60px;
@@ -2907,7 +2907,7 @@ form p
 
 		.projects-line .scroll-left, .projects-line .scroll-right
 			{
-				background-image: url(../media/line-small-arrows-2x.png);
+				background-image: url(../img/line-small-arrows-2x.png);
 				-webkit-background-size: 40px 70px;
 				-moz-background-size: 40px 70px;
 				background-size: 40px 70px;
@@ -2920,12 +2920,12 @@ form p
 
 		.main-menu
 			{
-				background-image: url(../media/menu-black-btn-2x.png);
+				background-image: url(../img/menu-black-btn-2x.png);
 			}
 
 		.cursor .project-cycle a:hover:after
 			{
-				background-image: url(../media/steps-zoom-2x.png);
+				background-image: url(../img/steps-zoom-2x.png);
 				-webkit-background-size: 45px 45px;
 				-moz-background-size: 45px 45px;
 				background-size: 45px 45px;
@@ -2938,7 +2938,7 @@ form p
 
 		.content .res-arrow:after
 			{
-				background-image: url(../media/res-arrow-down-2x.png);
+				background-image: url(../img/res-arrow-down-2x.png);
 				-webkit-background-size: 22px 13px;
 				-moz-background-size: 22px 13px;
 				background-size: 22px 13px;
