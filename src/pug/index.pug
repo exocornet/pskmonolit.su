@@ -3,63 +3,9 @@ include ../../node_modules/bempug/index
 
 doctype html
 html(lang="ru")
-  include head
+  include general/head
   body#main-page.cursor.ru
-    .print-header
-      img(src='/img/psk-monolit-logo.png' width='130' height='82' alt='ООО «ПСК Монолит»')
-      p
-        b &Ocy;&Ocy;&Ocy; &laquo;&Pcy;&Scy;&Kcy; &Mcy;&ocy;&ncy;&ocy;&lcy;&icy;&tcy;&raquo;
-        br
-        | &#x9;&ucy;&lcy;. &Kcy;&ocy;&lcy;&softcy;&scy;&kcy;&acy;&yacy;, &dcy;.2, &kcy;&ocy;&rcy;&pcy;.4, &ecy;&tcy;.3, &pcy;&ocy;&mcy;.8, &Rcy;&ocy;&scy;&scy;&icy;&yacy;, 129329, &gcy;. &Mcy;&ocy;&scy;&kcy;&vcy;&acy;
-        br
-        | &#x9;+7 495 532 53 52
-        br
-        | &#x9;info@psk-monolit.su, www.psk-monolit.su
-    .header
-      h1.logo
-        a(href='index.html') &Ocy;&Ocy;&Ocy; &laquo;&Pcy;&Scy;&Kcy; &Mcy;&ocy;&ncy;&ocy;&lcy;&icy;&tcy;&raquo;
-      .main-menu
-        ul.menu
-          li.passive
-            a(href='https://psk-monolit.su/company/about.php') &Kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&yacy;
-            ul
-              li.passive
-                a(href='https://psk-monolit.su/company/about.php') &Ocy; &kcy;&ocy;&mcy;&pcy;&acy;&ncy;&icy;&icy;
-
-          li.passive
-            a(href="https://psk-monolit.su/services/stroitel'stvo_ochistnyh_sooruzhenij.php") &Ucy;&scy;&lcy;&ucy;&gcy;&icy;
-            ul
-              li.passive
-                a(href="https://psk-monolit.su/services/stroitel'stvo_ochistnyh_sooruzhenij.php") &Scy;&tcy;&rcy;&ocy;&icy;&tcy;&iecy;&lcy;&softcy;&scy;&tcy;&vcy;&ocy; &ocy;&chcy;&icy;&scy;&tcy;&ncy;&ycy;&khcy; &scy;&ocy;&ocy;&rcy;&ucy;&zhcy;&iecy;&ncy;&icy;&jcy;
-              li.passive
-                a(href='https://psk-monolit.su/services/proektirovanie.php') &Pcy;&rcy;&ocy;&iecy;&kcy;&tcy;&icy;&rcy;&ocy;&vcy;&acy;&ncy;&icy;&iecy; &ocy;&chcy;&icy;&scy;&tcy;&ncy;&ycy;&khcy; &scy;&ocy;&ocy;&rcy;&ucy;&zhcy;&iecy;&ncy;&icy;&jcy;
-              li.passive
-                a(href='https://psk-monolit.su/services/montazh_tekhnologicheskogo_oborudovaniya_i_inzhenernyh_setej.php') &Mcy;&ocy;&ncy;&tcy;&acy;&zhcy; &tcy;&iecy;&khcy;&ncy;&ocy;&lcy;&ocy;&gcy;&icy;&chcy;&iecy;&scy;&kcy;&ocy;&gcy;&ocy; &ocy;&bcy;&ocy;&rcy;&ucy;&dcy;&ocy;&vcy;&acy;&ncy;&icy;&yacy; &icy; &icy;&ncy;&zhcy;&iecy;&ncy;&iecy;&rcy;&ncy;&ycy;&khcy; &scy;&iecy;&tcy;&iecy;&jcy;
-              li.passive
-                a(href='https://psk-monolit.su/services/radiusnaya_opalubka.php') &Rcy;&acy;&dcy;&icy;&ucy;&scy;&ncy;&acy;&yacy; &ocy;&pcy;&acy;&lcy;&ucy;&bcy;&kcy;&acy;
-          li.passive
-            a(href='https://psk-monolit.su/project/nashi_obekty.php') &Pcy;&rcy;&ocy;&iecy;&kcy;&tcy;&ycy;
-          li.passive
-            a(href='https://psk-monolit.su/docs/requisites/requisites.php') &Dcy;&ocy;&kcy;&ucy;&mcy;&iecy;&ncy;&tcy;&ycy;
-            ul
-              li.passive
-                a(href='https://psk-monolit.su/docs/requisites/requisites.php') &Rcy;&iecy;&kcy;&vcy;&icy;&zcy;&icy;&tcy;&ycy;
-              li.passive
-                a(href='https://psk-monolit.su/docs/sro/1.php') &Scy;&vcy;&icy;&dcy;&iecy;&tcy;&iecy;&lcy;&softcy;&scy;&tcy;&vcy;&ocy; &ocy; &dcy;&ocy;&scy;&tcy;&ucy;&pcy;&iecy; &rcy;&acy;&bcy;&ocy;&tcy;
-              li.passive
-                a(href='https://psk-monolit.su/docs/sro/2.php') &Scy;&vcy;&icy;&dcy;&iecy;&tcy;&iecy;&lcy;&softcy;&scy;&tcy;&vcy;&ocy; &ocy; &dcy;&ocy;&scy;&tcy;&ucy;&pcy;&iecy; &rcy;&acy;&bcy;&ocy;&tcy;
-              li.passive
-                a(href='https://psk-monolit.su/docs/uvedomlenie/1.php') &Ucy;&vcy;&iecy;&dcy;&ocy;&mcy;&lcy;&iecy;&ncy;&icy;&iecy; &ocy; &vcy;&kcy;&lcy;&yucy;&chcy;&iecy;&ncy;&icy;&icy; &scy;&vcy;&iecy;&dcy;&iecy;&ncy;&icy;&jcy; &vcy; &Ncy;&acy;&tscy;&icy;&ocy;&ncy;&acy;&lcy;&softcy;&ncy;&ycy;&jcy; &rcy;&iecy;&iecy;&scy;&tcy;&rcy;
-
-          li.passive
-            a(href='https://psk-monolit.su/contacts/kontakty.php') &Kcy;&ocy;&ncy;&tcy;&acy;&kcy;&tcy;&ycy;
-        ul.langs
-          a.mobile_link(href='tel:+74955325352')
-            i.fa.fa-phone
-            |  +7(495)532-53-52
-          a.mobile_link(href='tel:info@psk-monolit.su')
-            i.fa.fa-envelope-o
-            | &nbsp; info@psk-monolit.su
+    include general/header
 
     .background
       .cycle-slideshow(data-cycle-fx='tileSlide' data-cycle-tile-count='10' data-cycle-tile-vertical='false' data-cycle-timeout='6000')
@@ -126,17 +72,6 @@ html(lang="ru")
               a(href='https://psk-monolit.su/services/radiusnaya_opalubka.php') ...
             p
 
-    .footer.fixed
-      .copyrights
-        small.block(style='color:#52bcf0;')
-          | 2018 -
-          script.
-            document.write(new Date().getFullYear());
-          | . &copy;  &Vcy;&scy;&iecy; &pcy;&rcy;&acy;&vcy;&acy; &zcy;&acy;&shchcy;&icy;&shchcy;&iecy;&ncy;&ycy;. &Ocy;&Ocy;&Ocy; &laquo;&Pcy;&Scy;&Kcy; &Mcy;&ocy;&ncy;&ocy;&lcy;&icy;&tcy;&raquo;
-        small.cawas
-          a.a1(href='https://profestyle.ru' target='_blank')
-            span(style='vertical-align: 0px;') Web &Scy;&tcy;&ucy;&dcy;&icy;&yacy; &nbsp;
-            img(style='width: 20px;' src='https://profestyle.ru/gallery/prof/logo_top_mini.png' alt='' width='20' height='20')
-            span(style='text-decoration: none; vertical-align: 0px; font-size: 1.1em;') &nbsp; Professional Style
+    include general/footer
 
     .loader
