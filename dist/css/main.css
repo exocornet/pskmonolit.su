@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap);
 @charset "UTF-8";
 /*
  * photoswipe.css
@@ -218,7 +219,7 @@ body {
   color: #fff;
   background-color: #494e52;
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-weight: normal;
   overflow-x: hidden;
@@ -287,9 +288,12 @@ a:hover, a.tap {
   z-index: 100;
   cursor: default;
   text-align: right;
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
   opacity: 0.9;
   line-height: 1.5em;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  padding: 15px 30px;
 }
 
 .cycle-caption h3 {
@@ -298,7 +302,7 @@ a:hover, a.tap {
 
 /* FOOTER */
 .footer {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
   position: relative;
   line-height: 30px;
   font-size: 12px;
@@ -365,13 +369,14 @@ a:hover, a.tap {
   background-position: -48px -16px;
 }
 
-.footer small {
-  margin-right: 0.5em;
+.copyrights {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* LINE */
 .line {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   position: fixed;
   height: 104px;
   left: 0;
@@ -529,7 +534,7 @@ a:hover, a.tap {
   top: 0;
   right: 0;
   height: 60px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.75);
   z-index: 100;
   cursor: default;
   -webkit-transition: background-color 0.25s;
@@ -1059,6 +1064,10 @@ form input, form textarea {
   width: 25%;
 }
 
+.a1 {
+  color: #6C6C6C;
+}
+
 @media only screen and (min-width: 1100px) {
   .e-box2col {
     padding-left: 40px;
@@ -1323,7 +1332,7 @@ form p {
   line-height: 1.2em;
   color: #fff;
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   background-color: rgba(255, 255, 255, 0);
   -webkit-border-radius: 0;
@@ -1342,7 +1351,7 @@ form p {
 
 .e-submit {
   font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   padding: 5px 10px;
   margin: 0;
@@ -1424,7 +1433,7 @@ form p {
   text-shadow: none;
   line-height: 30px;
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   background: url(../img/zoom.png) left top no-repeat;
 }
 
@@ -2602,8 +2611,8 @@ form p {
 
   .steps-wrap {
     /*
-    				left: -20px;
-    				right: -20px;
+            left: -20px;
+            right: -20px;
     */
     overflow: hidden;
     background: rgba(0, 0, 0, 0.5);
@@ -2788,10 +2797,6 @@ form p {
   }
 }
 @media only screen and (max-width: 400px) {
-  .footer small span {
-    display: none;
-  }
-
   .e-box3col {
     padding: 0 !important;
   }
