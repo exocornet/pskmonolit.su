@@ -113,6 +113,12 @@ module.exports = {
       inject: 'body'
     }),
 
+    new HtmlWebpackPlugin({
+      filename: "projects.html",
+      template: './src/pug/projects/projects.pug',
+      inject: 'body'
+    }),
+
 
 
     //отвечает за css

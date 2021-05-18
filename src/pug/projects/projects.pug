@@ -1,0 +1,48 @@
+include ../../../node_modules/bempug/index
+- BEMPUG.modifier = '_';
+mixin blockProject(img, heading, customer, provider, contractor, construction, timing, performance)
+  .block-project
+    img(src=img).block-project__img
+    section.block-project__descript
+      h3= heading
+      strong Заказчик
+      span= customer
+      strong Поставщик технологии
+      span= provider
+      strong Подрядчик по проектированию, строительству и монтажу оборудования
+      span= contractor
+      strong Тип строительства
+      span= construction
+      strong Длительность проекта
+      span= timing
+      strong Производительность
+      span= performance
+
+
+doctype html
+html(lang="ru")
+  include ../general/head
+  body#main-page.cursor.ru.background-page
+    include ../general/header
+    .pattern
+    main.wrapper-grid
+
+      .container2
+      h1.heading-page Проекты
+      +blockProject(
+      '/img/projects/not-img-project.jpg',
+      'Строительство КОС для целлюлозно-бумажного комбината',
+      'SFT Group (Алексинская БКФ), Россия, Тульская обл.',
+      'H+E Group, ЕС, Германия',
+      'Определяется Заказчиком',
+      'Новое строительство',
+      'Август, 2020 – Январь, 2021',
+      '48 000 м3/сут.'
+      )
+
+
+
+
+    include ../general/footer
+
+    .loader
