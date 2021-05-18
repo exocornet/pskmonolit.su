@@ -19,7 +19,7 @@ module.exports = {
 
   devServer: {
     host: 'localhost',
-    port: 3000,
+    port: 4000,
     stats: 'errors-only',
     open: true
   },
@@ -97,7 +97,13 @@ module.exports = {
     //pug файлы генерируемые в html
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: './src/pug/index.pug',
+      template: './src/pug/index/index.pug',
+      inject: 'body'
+    }),
+
+    new HtmlWebpackPlugin({
+      filename: "contact.html",
+      template: './src/pug/contact/contact.pug',
       inject: 'body'
     }),
 

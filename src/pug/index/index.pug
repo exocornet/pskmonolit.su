@@ -1,11 +1,11 @@
-include ../../node_modules/bempug/index
+include ../../../node_modules/bempug/index
 - BEMPUG.modifier = '_';
 
 doctype html
 html(lang="ru")
-  include general/head
+  include ../general/head
   body#main-page.cursor.ru
-    include general/header
+    include ../general/header
 
     .background
       .cycle-slideshow(data-cycle-fx='tileSlide' data-cycle-tile-count='10' data-cycle-tile-vertical='false' data-cycle-timeout='6000')
@@ -72,6 +72,6 @@ html(lang="ru")
               a(href='https://psk-monolit.su/services/radiusnaya_opalubka.php') ...
             p
 
-    include general/footer
+    include ../general/footer
 
     .loader

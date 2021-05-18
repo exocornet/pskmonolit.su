@@ -187,7 +187,7 @@ function initCycle()
 function fitBG()
 	{
 		$('.cycle-slideshow').imagefit({mode: 'outside', force: true, halign: 'center', valign: 'top'});
-		if ($(window).height() > ($('.container').outerHeight() + (($(window).width() > 1000) ? 140 : 60) + $('.footer').height()))
+		if ($(window).height() > ($('.container').outerHeight() + (($(window).width() > 1000) ? 140 : 60) + $('.footer').height()) || ($('.container2').outerHeight() + (($(window).width() > 1000) ? 140 : 60) + $('.footer').height()))
 			{$('.footer').addClass('fixed')} else {$('.footer').removeClass('fixed')}
 		if ($(window).width() > 1440) {$('.sidebar').css({right: (($(window).width() - 1440) / 2) + 40})} else {$('.sidebar').css({right: 40})}
 		$('.content .e-video').css({height: ($('.content .e-video').width() / $('.content .e-video').data('ratio')) + 10});
