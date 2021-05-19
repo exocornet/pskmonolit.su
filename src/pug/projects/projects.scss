@@ -1,0 +1,53 @@
+.block-project {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0 4px 20px #000000;
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 90px;
+  }
+
+  &__img {
+    width: 50%;
+  }
+
+  &__wrap-desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    color: #000000;
+  }
+
+  &__heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  &__wrap-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__name-list {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  &__desc-list {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  }
+}
