@@ -616,5 +616,25 @@ jQuery.fn.move3d = function(x, y)
 		$('#arrowService1').toggleClass('block-service__arrow_active');
 	});
 
+	$('#service2').on('click', function (){
+		$('#descService2').toggleClass('block-service__desc_active');
+		$('#arrowService2').toggleClass('block-service__arrow_active');
+	});
+
+	$('#service3').on('click', function (){
+		$('#descService3').toggleClass('block-service__desc_active');
+		$('#arrowService3').toggleClass('block-service__arrow_active');
+	});
+
+	$('#service4').on('click', function (){
+		$('#descService4').toggleClass('block-service__desc_active');
+		$('#arrowService4').toggleClass('block-service__arrow_active');
+	});
+
+	$('#service5').on('click', function (){
+		$('#descService5').toggleClass('block-service__desc_active');
+		$('#arrowService5').toggleClass('block-service__arrow_active');
+	});
+
 
 })(jQuery);

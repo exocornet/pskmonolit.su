@@ -2,7 +2,12 @@
   background: #ffffff;
   padding: 35px 40px;
   box-shadow: 0 4px 20px #000000;
+  margin-bottom: 25px;
   transition: all 0.8s ease-in-out;
+
+  &:last-child {
+    margin-bottom: 90px;
+  }
 
   &__wrap-heading {
     display: flex;
@@ -34,6 +39,14 @@
 
     &_active {
       display: block;
+    }
+  }
+
+  p {
+    margin-bottom: 35px;
+
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
