@@ -1,0 +1,39 @@
+.block-service {
+  background: #ffffff;
+  padding: 35px 40px;
+  box-shadow: 0 4px 20px #000000;
+  transition: all 0.8s ease-in-out;
+
+  &__wrap-heading {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+
+  &__heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  &__arrow {
+
+    &_active {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__desc {
+    display: none;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #000000;
+    margin: 30px 0;
+
+    &_active {
+      display: block;
+    }
+  }
+}

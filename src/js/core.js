@@ -611,4 +611,10 @@ jQuery.fn.move3d = function(x, y)
 	};
 
 
+	$('#service1').on('click', function (){
+		$('#descService1').toggleClass('block-service__desc_active');
+		$('#arrowService1').toggleClass('block-service__arrow_active');
+	});
+
+
 })(jQuery);
