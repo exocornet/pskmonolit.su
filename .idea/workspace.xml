@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12991742-45c7-4f54-8031-a9bbf924ea3e" name="Default Changelist" comment="" />
+    <list default="true" id="12991742-45c7-4f54-8031-a9bbf924ea3e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/pug/documents/documents.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/documents/documents.pug" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,7 +13,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="65261" />
+    <option name="totalTimeSeconds" value="68114" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,7 +71,7 @@
       <workItem from="1621323114573" duration="619000" />
       <workItem from="1621340306288" duration="17648000" />
       <workItem from="1621403741560" duration="25065000" />
-      <workItem from="1621494815816" duration="12302000" />
+      <workItem from="1621494815816" duration="15916000" />
     </task>
     <servers />
   </component>

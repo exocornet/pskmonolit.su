@@ -3354,12 +3354,15 @@ img {
   font-size: 18px;
 }
 
-.zoom-img-doc-wrap {
-  display: flex;
+.zoom-img-doc-wrap1, .zoom-img-doc-wrap2, .zoom-img-doc-wrap3 {
+  display: none;
   flex-direction: column;
   align-items: center;
   position: relative;
   padding: 70px 0;
+}
+.zoom-img-doc-wrap1_active, .zoom-img-doc-wrap2_active, .zoom-img-doc-wrap3_active {
+  display: flex;
 }
 
 .window-modal {

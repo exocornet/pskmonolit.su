@@ -641,11 +641,27 @@ jQuery.fn.move3d = function(x, y)
   document.querySelector('#imgDocument1').addEventListener('click', function (){
     document.querySelector('#main-page').classList.toggle('window-modal');
     document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
+		document.querySelector('#zoomImg1').classList.toggle('zoom-img-doc-wrap1_active');
   });
 
+	document.querySelector('#imgDocument2').addEventListener('click', function (){
+		document.querySelector('#main-page').classList.toggle('window-modal');
+		document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
+		document.querySelector('#zoomImg2').classList.toggle('zoom-img-doc-wrap2_active');
+	});
+
+	document.querySelector('#imgDocument3').addEventListener('click', function (){
+		document.querySelector('#main-page').classList.toggle('window-modal');
+		document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
+		document.querySelector('#zoomImg3').classList.toggle('zoom-img-doc-wrap3_active');
+	});
+
   document.querySelector('.zoom-img-doc').addEventListener('click', function (){
-    document.querySelector('#main-page').classList.toggle('window-modal');
-    document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
+    document.querySelector('#main-page').classList.remove('window-modal');
+    document.querySelector('.zoom-img-doc').classList.remove('zoom-img-doc_active');
+		document.querySelector('#zoomImg1').classList.remove('zoom-img-doc-wrap1_active');
+		document.querySelector('#zoomImg2').classList.remove('zoom-img-doc-wrap2_active');
+		document.querySelector('#zoomImg3').classList.remove('zoom-img-doc-wrap3_active');
   });
 
 })(jQuery);

@@ -82,12 +82,16 @@
   }
 }
 
-.zoom-img-doc-wrap {
-  display: flex;
+.zoom-img-doc-wrap1, .zoom-img-doc-wrap2, .zoom-img-doc-wrap3 {
+  display: none;
   flex-direction: column;
   align-items: center;
   position: relative;
   padding: 70px 0;
+
+  &_active {
+    display: flex;
+  }
 }
 
 .window-modal {
