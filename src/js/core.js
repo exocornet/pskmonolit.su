@@ -638,4 +638,14 @@ jQuery.fn.move3d = function(x, y)
 
 
 
+  document.querySelector('#imgDocument1').addEventListener('click', function (){
+    document.querySelector('#main-page').classList.toggle('window-modal');
+    document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
+  });
+
+  document.querySelector('.zoom-img-doc').addEventListener('click', function (){
+    document.querySelector('#main-page').classList.toggle('window-modal');
+    document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
+  });
+
 })(jQuery);

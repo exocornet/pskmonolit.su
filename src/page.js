@@ -15,4 +15,3 @@ import 'lightslider'
 import 'lightgallery';
 
 import './js/core';
-
