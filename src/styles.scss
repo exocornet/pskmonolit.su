@@ -1,10 +1,12 @@
 @import "styles/photoswipe";
-@import "styles/lightslider.css";
-@import "styles/lightgallery.css";
+
 @import "pug/general/general";
 @import "pug/general/header";
 @import "pug/general/footer";
+
 @import "pug/index/core";
+@import "pug/index/mobile/media960";
+
 @import "pug/about-company/about-company";
 @import "pug/services/services";
 @import "pug/projects/projects";

@@ -10,8 +10,4 @@ import 'jquery.marquee';
 import './js/jquery.cycle';
 import 'photoswipe';
 
-//подключение галереии
-import 'lightslider'
-import 'lightgallery';
-
 import './js/core';

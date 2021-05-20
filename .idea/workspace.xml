@@ -13,7 +13,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="68114" />
+    <option name="totalTimeSeconds" value="77174" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,20 +35,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/img/general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/img/documents" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/img/documents" />
+      <recent name="$PROJECT_DIR$/src/public/files" />
       <recent name="$PROJECT_DIR$/src/public/img/general" />
       <recent name="$PROJECT_DIR$/src/public/img/projects" />
-      <recent name="$PROJECT_DIR$/src/public/img/documents" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/public/img/general" />
       <recent name="$PROJECT_DIR$/src/pug/index" />
+      <recent name="$PROJECT_DIR$/src/public/img/general" />
       <recent name="$PROJECT_DIR$/src/pug/general" />
       <recent name="$PROJECT_DIR$/src/public/img/photoswipe" />
       <recent name="$PROJECT_DIR$/src/pug" />
@@ -71,7 +72,7 @@
       <workItem from="1621323114573" duration="619000" />
       <workItem from="1621340306288" duration="17648000" />
       <workItem from="1621403741560" duration="25065000" />
-      <workItem from="1621494815816" duration="15916000" />
+      <workItem from="1621494815816" duration="29420000" />
     </task>
     <servers />
   </component>

@@ -82,6 +82,19 @@ a:hover, a.tap {
   margin: 0 auto;
   position: relative;
   z-index: 2;
+
+  @media only screen and (max-width: 1199px) {
+    max-width: 940px;
+    padding: 0 10px;
+  }
+
+  @media only screen and (max-width: 959px) {
+    max-width: 620px;
+  }
+
+  @media only screen and (max-width: 639px) {
+    max-width: 460px;
+  }
 }
 
 .heading-page {
@@ -90,6 +103,10 @@ a:hover, a.tap {
   font-size: 32px;
   line-height: 37px;
   margin: 0 0 40px 0;
+
+  @media only screen and (max-width: 939px) {
+    font-size: 26px;
+  }
 }
 
 img {

@@ -7,6 +7,10 @@
   display: flex;
   justify-content: space-between;
 
+  @media only screen and (max-width: 939px) {
+    padding: 35px 10px;
+  }
+
   &__wrap {
     display: flex;
     flex-direction: column;
@@ -14,6 +18,14 @@
     text-align: center;
     justify-content: flex-end;
     width: 33%;
+
+    @media only screen and (max-width: 939px) {
+      margin-right: 5px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
   &__heading {
@@ -21,6 +33,10 @@
     font-weight: bold;
     font-size: 16px;
     line-height: 1.5;
+
+    @media only screen and (max-width: 939px) {
+      font-size: 14px;
+    }
   }
 
   &__img-doc {
@@ -40,6 +56,12 @@
     background: url("../img/general/down-link.png") no-repeat left center;
     background-size: 14px;
     padding-left: 25px;
+
+    @media only screen and (max-width: 939px) {
+      font-size: 12px;
+      padding-left: 16px;
+      background-size: 12px;
+    }
   }
 }
 
@@ -67,10 +89,18 @@
     margin-bottom: 10px;
     background: url("../img/general/ico-down-modal.png") no-repeat left center;
     background-size: 15px;
+
+    @media only screen and (max-width: 939px) {
+      font-size: 14px;
+    }
   }
 
   &__img {
     width: 550px;
+
+    @media only screen and (max-width: 939px) {
+      width: 300px;
+    }
   }
 
   &__icon-close {

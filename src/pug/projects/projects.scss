@@ -9,8 +9,21 @@
     margin-bottom: 90px;
   }
 
+  @media only screen and (max-width: 939px) {
+    flex-direction: column;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 50px;
+    }
+  }
+
   &__img {
     width: 50%;
+
+    @media only screen and (max-width: 939px) {
+      width: 100%;
+    }
   }
 
   &__wrap-desc {
@@ -19,6 +32,11 @@
     flex-direction: column;
     padding: 60px;
     color: #000000;
+
+    @media only screen and (max-width: 939px) {
+      width: 100%;
+      padding: 35px 40px;
+    }
   }
 
   &__heading {
@@ -27,6 +45,10 @@
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 30px;
+
+    @media only screen and (max-width: 939px) {
+      font-size: 16px;
+    }
   }
 
   &__wrap-list {
@@ -43,11 +65,19 @@
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
+
+    @media only screen and (max-width: 939px) {
+      font-size: 14px;
+    }
   }
 
   &__desc-list {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
+
+    @media only screen and (max-width: 939px) {
+      font-size: 14px;
+    }
   }
 }

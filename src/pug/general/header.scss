@@ -111,3 +111,52 @@
 #main-page .menu ul {
   background-color: rgba(0, 0, 0, .5);
 }
+
+/* LANGS */
+.langs {
+  position: absolute;
+  right: 40px;
+  top: 21px;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+
+  @media only screen and (max-width: 1199px) {
+      width: 370px;
+      right: 120px;
+  }
+
+  @media only screen and (max-width: 939px) {
+    right: 40px;
+    font-size: 16px;
+  }
+
+  @media only screen and (max-width: 639px) {
+    top: 10px;
+    width: 200px;
+  }
+}
+
+.langs li {
+  float: left;
+  margin-left: 10px;
+
+  @media only screen and (max-width: 1199px) {
+    margin: 0;
+    text-align: center;
+  }
+}
+
+.langs li.active span {
+  color: #52bcf0 !important;
+}
+
+@media only screen and (max-width: 1199px) {
+  .langs li a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+  }
+}
