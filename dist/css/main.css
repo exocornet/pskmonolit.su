@@ -1492,11 +1492,16 @@ img {
     padding-top: 10px;
     padding-left: 4% !important;
     padding-right: 4% !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .line .services a {
+    width: 50% !important;
   }
 
   #main-page .container {
-    padding: 300px 0 0 0 !important;
-    margin: -300px 0 0 0 !important;
+    padding: 0 0 20px 0 !important;
     overflow: hidden;
   }
 

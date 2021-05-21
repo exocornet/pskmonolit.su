@@ -2,7 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12991742-45c7-4f54-8031-a9bbf924ea3e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/pug/documents/documents.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/documents/documents.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/about-company.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/documents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/files/document1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/files/document2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/files/document3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/doc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/documents/document1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/documents/document2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/documents/document3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/documents/zoom-document1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/documents/zoom-document2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/documents/zoom-document3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/general/arrow-service.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/general/background-page.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/general/down-link.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/general/ico-down-modal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/general/zoom-in.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/general/zoom-in.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icons-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/line-arrows-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/line-arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/line-small-arrows-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/line-small-arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/loader-2x.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/loader.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/media-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/media.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menu-black-btn-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menu-black-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menu-btn-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menu-btn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/pattern-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/pattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/photoswipe/error.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/photoswipe/icons-2x.png.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/photoswipe/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/photoswipe/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/not-img-project.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/psk-monolit-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/res-arrow-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/res-arrow-down-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/res-arrow-down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/res-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/steps-arrow-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/steps-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/steps-zoom-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/steps-zoom-big-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/steps-zoom-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/steps-zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zoom-2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/projects.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index/core.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +94,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="77174" />
+    <option name="totalTimeSeconds" value="77433" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,6 +154,7 @@
       <workItem from="1621340306288" duration="17648000" />
       <workItem from="1621403741560" duration="25065000" />
       <workItem from="1621494815816" duration="29420000" />
+      <workItem from="1621580918550" duration="1809000" />
     </task>
     <servers />
   </component>
