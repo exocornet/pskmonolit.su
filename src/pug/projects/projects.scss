@@ -9,7 +9,7 @@
     margin-bottom: 90px;
   }
 
-  @media only screen and (max-width: 939px) {
+  @media only screen and (max-width: 959px) {
     flex-direction: column;
     margin-bottom: 30px;
 
@@ -21,7 +21,7 @@
   &__img {
     width: 50%;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       width: 100%;
     }
   }
@@ -32,10 +32,15 @@
     flex-direction: column;
     padding: 60px;
     color: #000000;
+    box-sizing: border-box;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       width: 100%;
       padding: 35px 40px;
+    }
+
+    @media only screen and (max-width: 639px) {
+      padding: 10px 30px;
     }
   }
 
@@ -46,8 +51,12 @@
     line-height: 1.5;
     margin-bottom: 30px;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       font-size: 16px;
+    }
+
+    @media only screen and (max-width: 959px) {
+      margin-bottom: 15px;
     }
   }
 
@@ -59,6 +68,10 @@
     &:last-child {
       margin-bottom: 0;
     }
+
+    @media only screen and (max-width: 959px) {
+      margin-bottom: 10px;
+    }
   }
 
   &__name-list {
@@ -66,7 +79,7 @@
     font-weight: bold;
     font-size: 16px;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       font-size: 14px;
     }
   }
@@ -76,7 +89,7 @@
     font-weight: normal;
     font-size: 16px;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       font-size: 14px;
     }
   }

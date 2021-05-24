@@ -95,6 +95,10 @@ a:hover, a.tap {
   @media only screen and (max-width: 639px) {
     max-width: 460px;
   }
+
+  @media only screen and (max-width: 479px) {
+    max-width: 300px;
+  }
 }
 
 .heading-page {
@@ -104,8 +108,13 @@ a:hover, a.tap {
   line-height: 37px;
   margin: 0 0 40px 0;
 
-  @media only screen and (max-width: 939px) {
+  @media only screen and (max-width: 959px) {
     font-size: 26px;
+  }
+
+  @media only screen and (max-width: 639px) {
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 }
 

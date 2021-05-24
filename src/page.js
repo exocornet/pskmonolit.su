@@ -6,7 +6,6 @@ window.jQuery = $;
 window.$ = $;
 
 import 'jquery-migrate';
-import 'jquery.marquee';
 import './js/jquery.cycle';
 import 'photoswipe';
 

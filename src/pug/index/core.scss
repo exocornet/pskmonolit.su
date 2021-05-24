@@ -1,11 +1,20 @@
 /* BACKGROUND */
-.background {
+#main-page .background {
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
   z-index: -2;
+
+  @media only screen and (max-width: 1199px) {
+    display: block !important;
+  }
+
+  @media only screen and (max-width: 639px) {
+    height: 300px !important;
+    position: relative !important;
+  }
 }
 
 .pattern {
@@ -45,10 +54,33 @@
   background: rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   padding: 15px 30px;
+
+  @media only screen and (max-width: 1199px) {
+    right: 20px;
+    top: 80px;
+  }
+
+  @media only screen and (max-width: 639px) {
+    top: 20px;
+  }
+
+  @media only screen and (max-width: 479px) {
+    right: 10px;
+    left: 10px;
+    padding: 15px;
+  }
 }
 
 .cycle-caption h3 {
   font-size: 16px;
+
+  @media only screen and (max-width: 639px) {
+    font-size: 14px;
+  }
+
+  @media only screen and (max-width: 479px) {
+    font-size: 13px;
+  }
 }
 
 
@@ -219,6 +251,21 @@
 
 #main-page .container {
   background: transparent !important;
+
+  @media only screen and (max-width: 1199px) {
+    background-color: transparent;
+    margin: 0 !important;
+    padding: 20px !important;
+  }
+
+  @media only screen and (max-width: 639px) {
+    padding: 0 0 20px 0 !important;
+    overflow: hidden;
+  }
+
+  @media only screen and (max-width: 479px) {
+    bottom: 40px;
+  }
 }
 
 
@@ -1028,11 +1075,6 @@
     height: auto;
   }
 
-  #main-page .background {
-    height: 300px !important;
-    position: relative !important;
-  }
-
   #main-page .line {
     position: relative !important;
     margin-top: 0;
@@ -1052,16 +1094,6 @@
     width: 50% !important;
   }
 
-  #main-page .container {
-    padding: 0 0 20px 0 !important;
-    //margin: -300px 0 0 0 !important;
-    overflow: hidden;
-  }
-
-  .cycle-caption {
-    top: 20px;
-  }
-
   .line .services a {
     width: 50%;
     overflow: hidden;
@@ -1070,10 +1102,6 @@
   .last-news {
     position: absolute;
     top: 310px;
-  }
-
-  .cycle-caption h3 {
-    font-size: 14px;
   }
 
   .last-news .title a {

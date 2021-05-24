@@ -7,8 +7,12 @@
   display: flex;
   justify-content: space-between;
 
-  @media only screen and (max-width: 939px) {
+  @media only screen and (max-width: 959px) {
     padding: 35px 10px;
+  }
+
+  @media only screen and (max-width: 639px) {
+    flex-wrap: wrap;
   }
 
   &__wrap {
@@ -19,12 +23,17 @@
     justify-content: flex-end;
     width: 33%;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       margin-right: 5px;
 
       &:last-child {
         margin-right: 0;
       }
+    }
+
+    @media only screen and (max-width: 639px) {
+      width: 45%;
+      margin-bottom: 25px;
     }
   }
 
@@ -34,7 +43,7 @@
     font-size: 16px;
     line-height: 1.5;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       font-size: 14px;
     }
   }
@@ -57,7 +66,7 @@
     background-size: 14px;
     padding-left: 25px;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       font-size: 12px;
       padding-left: 16px;
       background-size: 12px;
@@ -90,7 +99,7 @@
     background: url("../img/general/ico-down-modal.png") no-repeat left center;
     background-size: 15px;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       font-size: 14px;
     }
   }
@@ -98,7 +107,7 @@
   &__img {
     width: 550px;
 
-    @media only screen and (max-width: 939px) {
+    @media only screen and (max-width: 959px) {
       width: 300px;
     }
   }

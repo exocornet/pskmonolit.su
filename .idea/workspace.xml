@@ -83,7 +83,19 @@
       <change beforePath="$PROJECT_DIR$/dist/projects.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/robots.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/services.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/jquery.marquee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/about-company/about-company.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/about-company/about-company.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/contact/contact.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/documents/documents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/documents/documents.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/general/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/general/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/general/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/general/general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/general/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/general/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/index/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index/core.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/index/mobile/media960.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index/mobile/media960.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/projects/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/projects/projects.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pug/services/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/services/services.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +106,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="77433" />
+    <option name="totalTimeSeconds" value="82867" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -155,6 +167,7 @@
       <workItem from="1621403741560" duration="25065000" />
       <workItem from="1621494815816" duration="29420000" />
       <workItem from="1621580918550" duration="1809000" />
+      <workItem from="1621844809711" duration="9422000" />
     </task>
     <servers />
   </component>
