@@ -41,9 +41,10 @@
   }
 
   &__arrow {
+    transform: rotate(180deg);
 
     &_active {
-      transform: rotate(180deg);
+      transform: rotate(0deg);
     }
   }
 

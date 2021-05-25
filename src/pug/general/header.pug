@@ -1,22 +1,29 @@
+-
+  const nav = [
+      {pageName : 'О компании', pageUrl : '/about-company.html'},
+      {pageName : 'Услуги', pageUrl : '/services.html'},
+      {pageName : 'Проекты', pageUrl : '/projects.html'},
+      {pageName : 'Документы', pageUrl : '/documents.html'},
+      {pageName : 'Контакты', pageUrl : 'contact.html'}
+  ]
+
 header.header
   h1.logo
     a(href='/') ООО &laquo;ПСК Монолит&raquo;
   .main-menu
     ul.menu
-      li.passive
-        a(href='/about-company.html') О компании
-      li.passive
-        a(href='/services.html') Услуги
-      li.passive
-        a(href='/projects.html') Проекты
-      li.passive
-        a(href='/documents.html') Документы
-      li.passive
-        a(href='/contact.html') Контакты
+      each link in nav
+        if (classActiveLink === link.pageName)
+          li.passive
+            a(href=link.pageUrl).passive_active=link.pageName
+        else
+          li.passive
+            a(href=link.pageUrl)=link.pageName
+
     .langs
-      a.mobile_link(href='tel:+74955325352')
+      a.mobile_link(href='tel:+79261903444')
         i.fa.fa-phone
-        |  +7(495)532-53-52
-      a.mobile_link(href='mailto:info@psk-monolit.su')
+        |  +7(926)190-34-44
+      a.mobile_link(href='mailto:dm.psk@list.ru')
         i.fa.fa-envelope-o
-        | &nbsp; info@psk-monolit.su
+        | &nbsp; dm.psk@list.ru

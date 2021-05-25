@@ -409,6 +409,10 @@ img {
     text-transform: uppercase;
   }
 }
+.menu li a.passive_active {
+  color: #52bcf0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .menu ul {
   display: none;
@@ -2031,8 +2035,11 @@ img {
     font-size: 14px;
   }
 }
-.block-service__arrow_active {
+.block-service__arrow {
   transform: rotate(180deg);
+}
+.block-service__arrow_active {
+  transform: rotate(0deg);
 }
 .block-service__desc {
   display: none;
