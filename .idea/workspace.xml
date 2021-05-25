@@ -3,14 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="12991742-45c7-4f54-8031-a9bbf924ea3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/about-company/about-company.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/about-company/about-company.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/contact/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/contact/contact.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/documents/documents.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/documents/documents.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/general/header.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/general/header.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/general/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/general/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/not-img-project.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/projects/project8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/not-img-project.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/img/projects/project8.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/projects/projects.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/projects/projects.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/services/services.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/services/services.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/services/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/services/services.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +32,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="93484" />
+    <option name="totalTimeSeconds" value="94163" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,17 +54,17 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/img/documents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/public/img/projects" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/public/img/projects" />
       <recent name="$PROJECT_DIR$/src/public/img/documents" />
       <recent name="$PROJECT_DIR$/src/public/files" />
       <recent name="$PROJECT_DIR$/src/public/img/general" />
-      <recent name="$PROJECT_DIR$/src/public/img/projects" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pug/index" />
@@ -83,7 +94,7 @@
       <workItem from="1621494815816" duration="29420000" />
       <workItem from="1621580918550" duration="1809000" />
       <workItem from="1621844809711" duration="9422000" />
-      <workItem from="1621921190858" duration="15752000" />
+      <workItem from="1621921190858" duration="16888000" />
     </task>
     <servers />
   </component>
