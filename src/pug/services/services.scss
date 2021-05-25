@@ -13,6 +13,10 @@
     padding: 30px;
   }
 
+  @media only screen and (max-width: 479px) {
+    padding: 30px 15px;
+  }
+
   &__wrap-heading {
     display: flex;
     justify-content: space-between;
@@ -29,6 +33,10 @@
 
     @media only screen and (max-width: 959px) {
       font-size: 16px;
+    }
+
+    @media only screen and (max-width: 479px) {
+      font-size: 14px;
     }
   }
 

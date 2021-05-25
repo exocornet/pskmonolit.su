@@ -638,30 +638,40 @@ jQuery.fn.move3d = function(x, y)
 
 
 
-  document.querySelector('#imgDocument1').addEventListener('click', function (){
-    document.querySelector('#main-page').classList.toggle('window-modal');
-    document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
-		document.querySelector('#zoomImg1').classList.toggle('zoom-img-doc-wrap1_active');
+  $('#imgDocument1').on('click', function (){
+    $('#main-page').toggleClass('window-modal');
+    $('.zoom-img-doc').toggleClass('zoom-img-doc_active');
+		$('#zoomImg1').toggleClass('zoom-img-doc-wrap1_active');
   });
 
-	document.querySelector('#imgDocument2').addEventListener('click', function (){
-		document.querySelector('#main-page').classList.toggle('window-modal');
-		document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
-		document.querySelector('#zoomImg2').classList.toggle('zoom-img-doc-wrap2_active');
+	$('#imgDocument2').on('click', function (){
+		$('#main-page').toggleClass('window-modal');
+		$('.zoom-img-doc').toggleClass('zoom-img-doc_active');
+		$('#zoomImg2').toggleClass('zoom-img-doc-wrap2_active');
 	});
 
-	document.querySelector('#imgDocument3').addEventListener('click', function (){
-		document.querySelector('#main-page').classList.toggle('window-modal');
-		document.querySelector('.zoom-img-doc').classList.toggle('zoom-img-doc_active');
-		document.querySelector('#zoomImg3').classList.toggle('zoom-img-doc-wrap3_active');
+	$('#imgDocument3').on('click', function (){
+		$('#main-page').toggleClass('window-modal');
+		$('.zoom-img-doc').toggleClass('zoom-img-doc_active');
+		$('#zoomImg3').toggleClass('zoom-img-doc-wrap3_active');
 	});
 
-  document.querySelector('.zoom-img-doc').addEventListener('click', function (){
-    document.querySelector('#main-page').classList.remove('window-modal');
-    document.querySelector('.zoom-img-doc').classList.remove('zoom-img-doc_active');
-		document.querySelector('#zoomImg1').classList.remove('zoom-img-doc-wrap1_active');
-		document.querySelector('#zoomImg2').classList.remove('zoom-img-doc-wrap2_active');
-		document.querySelector('#zoomImg3').classList.remove('zoom-img-doc-wrap3_active');
+  $('.zoom-img-doc').on('click', function (){
+    $('#main-page').removeClass('window-modal');
+    $('.zoom-img-doc').removeClass('zoom-img-doc_active');
+		$('#zoomImg1').removeClass('zoom-img-doc-wrap1_active');
+		$('#zoomImg2').removeClass('zoom-img-doc-wrap2_active');
+		$('#zoomImg3').removeClass('zoom-img-doc-wrap3_active');
   });
+
+  $('.zoom-img-doc__icon-close').on('click', function (e){
+		e.preventDefault();
+	});
+
+  $('.main-menu').on('click', function(){
+		$('.langs').toggleClass('langs_active');
+		$('.menu').toggleClass('menu_active');
+		$('#main-page').toggleClass('window-modal');
+	});
 
 })(jQuery);

@@ -15,18 +15,6 @@
     margin: 0 !important;
   }
 
-  .header {
-    background-color: rgba(0, 0, 0, .5) !important;
-    -webkit-box-shadow: inherit !important;
-    -moz-box-shadow: inherit !important;
-    box-shadow: inherit !important;
-    -webkit-transition: inherit;
-    -moz-transition: inherit;
-    -ms-transition: inherit;
-    -o-transition: inherit;
-    transition: inherit;
-  }
-
   .logo a, .logo span {
     width: 158px;
   }
@@ -43,72 +31,12 @@
     width: auto;
   }
 
-  .footer {
-    padding: 0 20px;
-  }
-
-  .menu {
-    display: none;
-  }
-
-  .main-menu {
-    width: 68px;
-    height: 60px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    background: url(../img/menu-btn.png) left top no-repeat;
-    z-index: 999;
-  }
-
-  .main-menu:hover {
-    background-color: rgba(0, 0, 0, .5);
-  }
-
-  .main-menu:hover .menu {
-    display: block;
-  }
-
-  .menu {
-    width: auto;
-    position: absolute;
-    margin: 0;
-    padding-bottom: 4px;
-    padding-top: 4px;
-    top: 60px;
-    right: 0;
-    background-color: rgba(0, 0, 0, .75);
-    min-width: 162px;
-  }
-
-  .menu li {
-    float: none;
-    line-height: 32px;
-    text-align: right;
-  }
-
-  .menu li a {
-    color: #52bcf0;
-    padding: 0 20px 0 30px;
-    background: transparent !important;
-  }
-
-  .menu ul {
-    position: relative;
-    margin: 0 !important;
-    left: 0 !important;
-    top: 0 !important;
-    background: transparent !important;
-  }
-
   .menu ul li a {
     padding: 0 20px 0 30px;
     color: #fff;
   }
 
   .menu a:hover, .menu a.tap {
-    background-color: #52bcf0 !important;
-    color: #222 !important;
     text-shadow: none;
   }
 
@@ -118,14 +46,6 @@
 
   .menu li.active ul {
     display: block !important;
-  }
-
-  .news-zoom-image {
-    margin: 1.5em 20px 4px 0 !important;
-  }
-
-  .news dd {
-    margin-bottom: 20px;
   }
 
   #office-map {
@@ -334,19 +254,4 @@
     -moz-background-size: 1.5px 1.5px;
     background-size: 1.5px 1.5px;
   }
-
-  .main-menu {
-    background-image: url(../img/menu-btn-2x.png);
-    -webkit-background-size: 68px 60px;
-    -moz-background-size: 68px 60px;
-    background-size: 68px 60px;
-  }
-
-  .projects-line .scroll-left, .projects-line .scroll-right {
-    background-image: url(../img/line-small-arrows-2x.png);
-    -webkit-background-size: 40px 70px;
-    -moz-background-size: 40px 70px;
-    background-size: 40px 70px;
-  }
-
 }
