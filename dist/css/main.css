@@ -232,8 +232,10 @@ a:hover, a.tap {
 }
 
 .background-page {
-  background: url("../img/general/background-page.jpg");
+  background: url("../img/general/bg-water.jpeg");
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .wrapper-grid {
@@ -615,6 +617,9 @@ img {
   height: 100%;
   background: url(../img/pattern.png);
   z-index: 2;
+}
+.pattern_bg-page {
+  background-color: rgba(0, 0, 0, 0.45);
 }
 
 /* CYCLE */
@@ -2332,12 +2337,23 @@ img {
   font-size: 16px;
   line-height: 1.7;
   color: #000000;
+  width: fit-content;
 }
 .section-contacts__link-contact:hover {
   color: #52bcf0;
 }
 @media only screen and (max-width: 959px) {
   .section-contacts__link-contact {
+    font-size: 14px;
+  }
+}
+.section-contacts__adres {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #000000;
+}
+@media only screen and (max-width: 959px) {
+  .section-contacts__adres {
     font-size: 14px;
   }
 }

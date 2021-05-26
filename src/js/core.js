@@ -636,6 +636,10 @@ jQuery.fn.move3d = function(x, y)
 		$('#arrowService5').toggleClass('block-service__arrow_active');
 	});
 
+	$('#service6').on('click', function (){
+		$('#descService6').toggleClass('block-service__desc_active');
+		$('#arrowService6').toggleClass('block-service__arrow_active');
+	});
 
 
   $('#imgDocument1').on('click', function (){

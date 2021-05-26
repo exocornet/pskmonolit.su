@@ -72,8 +72,10 @@ a:hover, a.tap {
 // Без него не работает нормально при маленьком наполнение<--
 
 .background-page {
-  background: url("../img/general/background-page.jpg");
+  background: url("../img/general/bg-water.jpeg");
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .wrapper-grid {
