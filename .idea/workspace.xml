@@ -3,24 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="12991742-45c7-4f54-8031-a9bbf924ea3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/about-company.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/about-company.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/documents.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/documents.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/about-company/about-company.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/about-company/about-company.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/contact/contact.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/contact/contact.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/contact/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/contact/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/documents/documents.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/documents/documents.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pug/general/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/general/general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index/core.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index/core.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/projects/projects.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/projects/projects.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/services/services.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/services/services.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +16,7 @@
     <execution />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="97100" />
+    <option name="totalTimeSeconds" value="97810" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,7 +79,7 @@
       <workItem from="1621580918550" duration="1809000" />
       <workItem from="1621844809711" duration="9422000" />
       <workItem from="1621921190858" duration="17651000" />
-      <workItem from="1622017689630" duration="5304000" />
+      <workItem from="1622017689630" duration="6146000" />
     </task>
     <servers />
   </component>
